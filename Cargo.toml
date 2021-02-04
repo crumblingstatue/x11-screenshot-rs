@@ -8,14 +8,14 @@ repository = "https://github.com/TheHellBox/x11-screenshot-rs"
 description = "Screenshots with x11"
 
 [dependencies]
-libc="0.2.33"
+libc= "0.2.85"
 
 [dependencies.image]
-version = "0.16.0"
+version = "0.23.12"
 default-features = false
 
 [dependencies.x11]
-version = "2.16.0"
+version = "2.18.2"
 features = ["xlib"]
 
 [[example]]
